@@ -1,0 +1,56 @@
+/* RegisterPage.css */
+.registerPage {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.registerPage h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registerPage input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.registerPage input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.registerPage input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.registerPage input[type="button"]:focus {
+  outline: none;
+}
+
+/* Optional: Style for error messages */
+.registerPage .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Optional: Style for success messages */
+.registerPage .success {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}

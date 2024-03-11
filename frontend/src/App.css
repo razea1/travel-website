@@ -1,0 +1,58 @@
+/* App.css */
+
+/* Styling for the main container */
+.container {
+  text-align: center;
+  font-family: "Kablammo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Styling for the login form */
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Styling for the login form header */
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Styling for the input fields */
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the login button */
+.login-form input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styling for the register link */
+.login-form h4 {
+  margin-top: 20px;
+}
+
+.login-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}

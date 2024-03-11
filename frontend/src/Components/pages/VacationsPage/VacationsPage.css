@@ -1,0 +1,134 @@
+/* VacationsPage.css */
+
+/* Styling for the container div */
+.VacationsPage {
+  background-color: #f0f0f0;
+  /* padding: 20px; */
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  padding: auto;
+  font-family: "Kablammo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+}
+
+/* Styling for each vacation box */
+.box-item {
+  position: relative; /* Add position relative to the box */
+  width: 25%;
+  height: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+/* Styling for the vacation destination heading */
+.box-item h3 {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  word-wrap: break-word; /* Add word-wrap with break-word value */
+}
+
+/* Styling for the vacation description */
+.box-item h4 {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Styling for the vacation date */
+.box-item p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Styling for the vacation price */
+.box-item h1 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+/* Styling for the vacation image */
+.box-item .img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  border-radius: 8px;
+}
+
+/* Styling for the like button */
+.like-button {
+  position: absolute; /* Add position absolute to make it independent of the box layout */
+  top: 10px; /* Adjust the top value to move it down as needed */
+  right: 10px; /* Adjust the right value to move it left as needed */
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.like-button:hover {
+  color: #007bff;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+/* VacationsPage.css */
+
+.filter-checkbox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.filter-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.filter-checkbox input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Style the custom checkbox when checked */
+.filter-checkbox input[type="checkbox"]:checked {
+  background-color: #007bff;
+}
+
+/* Hide the default checkmark */
+.filter-checkbox input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  border-radius: 2px;
+  visibility: visible;
+}
+
+/* Show the custom checkmark when checkbox is checked */
+.filter-checkbox input[type="checkbox"]:checked::before {
+  visibility: visible;
+}

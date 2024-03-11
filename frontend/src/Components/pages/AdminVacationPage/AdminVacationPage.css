@@ -1,0 +1,112 @@
+/* AdminVacationPage.css */
+
+/* Styling for the container div */
+.AdminVacationPage {
+  background-color: #f0f0f0;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  font-family: "Kablammo", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+}
+
+.header1 {
+  text-align: center;
+}
+
+.NavButton{
+  margin-left: 10px;
+}
+
+/* Styling for the "Add Vacation" button */
+button {
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the "Download me" button */
+.CSVLink {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CSVLink:hover {
+  background-color: #218838;
+}
+
+/* Styling for each vacation box */
+.Box-item-admin {
+  position: relative;
+  width: calc(33.33% - 20px); /* Adjust the width to fit three items per row with spacing */
+  height: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+/* Styling for the vacation destination heading */
+.Box-item-admin h3 {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+/* Styling for the vacation description */
+.Box-item-admin h4 {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Styling for the vacation date */
+.Box-item-admin p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Styling for the vacation price */
+.Box-item-admin h1 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+/* Styling for the vacation image */
+.Box-item-admin .img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.pagination-admin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
